@@ -41,14 +41,11 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-          Plantilla Frontend Menu para Pizzería
+          Plantilla Frontend Menu para Pizzería 🍕
         </Typography>
 
         <Typography variant="body1" gutterBottom>
-          Realizado con React, Vite
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          Diseño: Material UI
+          Desarrollado con React, Vite 💻 y Diseño: Material UI 🎨
         </Typography>
 
         <Typography
@@ -60,7 +57,7 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-          ¡Oferta especial! Código Precio: <s>$200.000</s> $150.000 ARS
+          ¡Oferta especial! Código Precio: <s>$200.000</s> $150.000 ARS 💰
         </Typography>
 
         <Typography
@@ -68,7 +65,7 @@ function ModalPrecio() {
           color="text.secondary"
           sx={{ fontSize: '0.9rem', mb: 3 }}
         >
-          Documentado: $210.000 ARS
+          Documentado: $210.000 ARS 📄
         </Typography>
 
         <Typography
@@ -80,11 +77,12 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-          Backend
+          Backend 🔐
         </Typography>
         <Typography variant="body2" gutterBottom>
-          Firebase CRUD, configuración de menú y login
+          Firebase CRUD, configuración de menú y login 🔑
         </Typography>
+
         <Typography
           variant="h6"
           color="primary"
@@ -94,7 +92,7 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-           Código Precio: $230.000 ARS
+          Código Precio: $230.000 ARS 💲
         </Typography>
 
         <Typography
@@ -102,7 +100,7 @@ function ModalPrecio() {
           color="text.secondary"
           sx={{ fontSize: '0.9rem', mb: 3 }}
         >
-          Documentado: $250.000 ARS
+          Documentado: $250.000 ARS 📝
         </Typography>
 
         <Typography
@@ -114,7 +112,7 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-          Despliegue en Netlify
+          Despliegue en Netlify 🌐
         </Typography>
 
         <Typography
@@ -126,7 +124,7 @@ function ModalPrecio() {
             mb: 2,
           }}
         >
-          Código Precio: $300.000 ARS
+          Código Precio: $300.000 ARS 💵
         </Typography>
 
         <Typography
@@ -134,7 +132,7 @@ function ModalPrecio() {
           color="text.secondary"
           sx={{ fontSize: '0.9rem', mb: 3 }}
         >
-          Documentado: $350.000 ARS
+          Documentado: $350.000 ARS 📑
         </Typography>
 
         {/* Botón para enviar correo */}
@@ -153,7 +151,7 @@ function ModalPrecio() {
             },
           }}
         >
-          ¡Comprar Ahora y Ahorra!
+          ¡Comprar Ahora y Ahorra! 🛍️
         </Button>
       </Box>
     </Modal>
