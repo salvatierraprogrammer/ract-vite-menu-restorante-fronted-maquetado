@@ -2,19 +2,19 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import '@fontsource/lobster';
-import logo from '/logo.png';
-import fondoPizza from '/fondoPizza.jpeg';
+import logo from '/logo.jpeg';
+import fondo from '/fondo.jpg';
 
 function Header() {
   return (
     <header style={{ 
-      backgroundImage: `url(${fondoPizza})`, 
+      backgroundImage: `url(${fondo})`, 
       backgroundSize: 'cover',
       backgroundBlendMode: 'overlay',
       backgroundColor: 'rgba(0, 0, 0, 0.5)', // Añade un color de fondo semitransparente para el degradado
       padding: '30px 0', 
       borderBottom: '5px solid #d35400',
-      boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)'
+      boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
     }}>
       <Typography
         variant="h3"
@@ -27,7 +27,7 @@ function Header() {
           marginBottom: '10px',
         }}
       >
-        Pizzería Felipe
+        Pizzería 
       </Typography>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
         <div style={{ 
@@ -38,7 +38,7 @@ function Header() {
         }}>
           <img
             src={logo}
-            alt="Logo de Pizzería Felipe"
+            alt="Logo de Pizzería"
             style={{
               width: '200px',
               height: 'auto',
